@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-debug",
+            "program": "${workspaceFolder}/IMEIndicatorW/bin/Debug/net8.0-windows/IMEIndicatorW.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/IMEIndicatorW",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Debug (No Build)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/IMEIndicatorW/bin/Debug/net8.0-windows/IMEIndicatorW.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/IMEIndicatorW",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Attach to Process",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
